@@ -2,6 +2,8 @@
 
 # Made with ❤ by @SpeedIndeed - Telegram
 
+touch testing.txt
+cp testing.txt ../
 git checkout heroku
-sleep 5
-echo "is this visible?"
+mv ../testing.txt ./
+echo "done"
