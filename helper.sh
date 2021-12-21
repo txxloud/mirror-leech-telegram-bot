@@ -6,4 +6,4 @@ touch testing.txt
 cp testing.txt ../
 git checkout heroku
 mv ../testing.txt ./
-echo "done"
+ls
